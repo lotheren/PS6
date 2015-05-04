@@ -7,6 +7,14 @@
 //
 
 #include <stdio.h>
+#include "socket_name.h"
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/un.h>
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
